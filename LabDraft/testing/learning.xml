@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/04/26||19:15:10" using="Simscape Multibody Link Version 7.4" from="SolidWorks 34.3.2"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="EXCAVATOR_XCGM_XE75G" uid="EXCAVATOR_XCGM_XE75G" version="586">
+<AssemblyFile name="EXCAVATOR_XCGM_XE75G.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="boom_XCGM-1" uid="boom_XCGM-1" entityUid="boom_XCGM*:*Default">
+<Transform>
+<Rotation>-0.96805855151480846 0.25068989245115797 -0.0041495375498650667 0.25069205075127743 0.9680668859588778 1.5961624383331596e-15 0.0040170298940677071 -0.0010402560780435595 -0.99999139063200049</Rotation>
+<Translation>-0.6504508530415124 0.8400000000011475 -0.10730185356210536</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="arm_XCGM-1" uid="arm_XCGM-1" entityUid="arm_XCGM*:*Default">
+<Transform>
+<Rotation>-0.2586397220448447 0.96596494528460386 -0.0041495375498651569 0.96597326170389164 0.25864194878856184 1.5449728491987932e-15 0.0010732444784699311 -0.0040083423216056204 -0.9999913906320006</Rotation>
+<Translation>-5.3170393279115542 2.0554598997361659 -0.087437498436319094</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="biella_centrale-1" uid="biella_centrale-1" entityUid="biella_centrale*:*Default">
+<Transform>
+<Rotation>0.9808080562662681 -0.19493162416936693 0.0041495375498652254 0.1949333024219029 0.98081650047646063 -7.3584801446591186e-16 -0.0040699348982543345 0.00080888305811964163 0.9999913906320006</Rotation>
+<Translation>-5.5625112131462036 2.0057897361497274 -0.086418894861568785</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.20078431372549022" g="0.20078431372549022" b="0.20078431372549022" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="biella_curva_1-1" uid="biella_curva_1-1" entityUid="biella_curva_1*:*Default">
+<Transform>
+<Rotation>0.92491633684271857 0.38014806481102736 0.004149537549865032 -0.38015133767378884 0.9249242998563878 -1.6188510628583133e-15 -0.0038380081130373203 -0.0015774522503073105 0.9999913906320006</Rotation>
+<Translation>-5.3567554333682628 1.9424613628852885 0.012728167397685529</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.20078431372549022" g="0.20078431372549022" b="0.20078431372549022" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="biella_curva_2-1" uid="biella_curva_2-1" entityUid="biella_curva_2*:*Default">
+<Transform>
+<Rotation>0.92491633684272323 0.38014806481101587 0.0041495375498650814 -0.38015133767377729 0.92492429985639235 -1.6556893727673501e-15 -0.0038380081130373997 -0.0015774522503072476 0.99999139063200049</Rotation>
+<Translation>-5.3576724811668024 1.9424613628852325 -0.20826992993198654</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.20078431372549022" g="0.20078431372549022" b="0.20078431372549022" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="torretta_XCGM-1" uid="torretta_XCGM-1" entityUid="torretta_XCGM*:*Default">
+<Transform>
+<Rotation>0.99999139063200071 0 0.0041495375498649774 0 1 -1.587343808806103e-15 -0.0041495375498649774 1.587726850694808e-15 0.99999139063200071</Rotation>
+<Translation>-2.2638323704223105e-13 0.070000000001147464 1.1164231049022307e-15</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="bucket_XCGM_V01-1" uid="bucket_XCGM_V01-1" entityUid="bucket_XCGM_V01*:*Default">
+<Transform>
+<Rotation>-0.99121185687715829 0.1322188947324045 -0.0041495375498650884 0.13222003306332594 0.99122039065826983 1.4893007617075571e-15 0.0041131062312286283 -0.00054865199203919866 -0.99999139063200049</Rotation>
+<Translation>-4.925965861925298 1.2431780896949169 -0.089060286439365269</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.20078431372549022" g="0.20078431372549022" b="0.20078431372549022" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.2450000000000001 0.070000000000000062 0</Position>
+<Axis>-5.2300858810585962e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.2450000000000001 0.020000000000000004 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872823 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872823 -0.19500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872812 -0.16500000000000009</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.6350000000000007 0.34863701827500426 -0.19500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.6350000000000005 0.34863701827500354 -0.065001000000024789</Position>
+<Axis>-6.5092351583223563e-16 -3.7395497705505103e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.5049999999999992 0.070000000000000173 -0.19500000000000006</Position>
+<Axis>-4.7927608690296372e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.7518072124270705 0.070000000000000007 -1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872823 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872801 0</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872801 0</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.2046227371634801 2.4812541982419321 -5.171079108446437e-14</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.3726810479769425 2.3092377821056291 -0.16499999999999979</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.3726810479769416 2.3092377821056296 0.057749999999948114</Position>
+<Axis>2.1099083270069816e-15 1.4611951918757196e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.4194752106898587 2.3136316796917202 0.00024999999994801658</Position>
+<Axis>0.99562048325355268 -0.093487182682774672 1.9640649263173083e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.2046227371634801 2.4812541982419369 0.0002499999999442371</Position>
+<Axis>-0.99562048325355279 0.093487182682774408 -2.102842804395454e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.2046227371634801 2.4812541982419321 -0.14071067811870655</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.2046227371634801 2.4812541982419369 0.047749999999944087</Position>
+<Axis>2.2486721055590779e-15 1.4545438221352493e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.448294035308459 2.0910948737854471 -0.14071067811870722</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.448294035308459 2.0910948737854467 0.052499999999949566</Position>
+<Axis>1.3700837311454069e-16 -3.156082396902612e-16 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.466094017262118 2.0475959008958551 -5.041784074786658e-14</Position>
+<Axis>0.37872302029062122 0.92551006148066794 -2.4021037644849584e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223299 1.0915440073863278 -5.8258841473236568e-14</Position>
+<Axis>-0.37872302029062144 -0.92551006148066783 3.7204936062273357e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.5534116064326047 1.7792033820519111 -0.16500000000000012</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.5534116064326056 1.7792033820519113 0.054999999999975083</Position>
+<Axis>6.2536937269557958e-16 3.6167231595260949e-16 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223077 1.0915440073864271 0.084999999999947964</Position>
+<Axis>3.85447240077624e-16 4.1108978557755443e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223299 1.0915440073863278 0.042499999999941605</Position>
+<Axis>2.6350511274935707e-16 -5.0982137571828736e-16 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223077 1.0915440073864273 0.039999999999947966</Position>
+<Axis>3.85447240077624e-16 4.1108978557755443e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223299 1.0915440073863278 0.039999999999941742</Position>
+<Axis>-2.6350511274935707e-16 5.0982137571828736e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811007 0.66891822061392348 0.079999999999945809</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811007 0.66891822061392336 0.079999999999949251</Position>
+<Axis>6.6943947980605005e-16 3.9143050911559317e-15 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811007 0.66891822061392348 -0.082500000000054197</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811007 0.66891822061392314 0.11999999999994924</Position>
+<Axis>6.6943947980605005e-16 3.9143050911559317e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811007 0.66891822061392348 -0.080000000000054194</Position>
+<Axis>1.0372890212361801e-15 1.079902137590157e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811025 0.66891822061391426 -0.080000000000054472</Position>
+<Axis>-5.0118296637195124e-16 -4.1379477928858525e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811007 0.66891822061392348 -0.082500000000054197</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.7179863489811025 0.66891822061391437 -0.12000000000005447</Position>
+<Axis>-5.0118296637195124e-16 -4.1379477928858525e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223077 1.091544007386428 -0.08500000000005202</Position>
+<Axis>3.85447240077624e-16 4.1108978557755443e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223317 1.0915440073863161 -0.085000000000052783</Position>
+<Axis>-5.0118296637195124e-16 -4.1379477928858525e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223077 1.0915440073864271 0.084999999999947964</Position>
+<Axis>3.85447240077624e-16 4.1108978557755443e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223317 1.0915440073863163 -0.12000000000005279</Position>
+<Axis>-5.0118296637195124e-16 -4.1379477928858525e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8573148972223077 1.0915440073864271 0.084999999999947964</Position>
+<Axis>3.85447240077624e-16 4.1108978557755443e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.857314897222329 1.091544007386325 0.1199999999999508</Position>
+<Axis>6.6943947980605005e-16 3.9143050911559317e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8820358416597491 0.70232828968438432 -0.40000000000004959</Position>
+<Axis>-3.8051803311205832e-16 -3.3435886016618828e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8820358416597136 0.70232828968463312 0.084999999999946355</Position>
+<Axis>3.85447240077624e-16 4.1108978557755443e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8375996637441663 0.41575294864442158 -0.082500000000054599</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8375996637441796 0.41575294864427353 -0.40000000000005054</Position>
+<Axis>-3.8051803311205832e-16 -3.3435886016618828e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.8375996637441663 0.41575294864442158 0.079999999999945406</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-5.3413262918683335 0.70405477571745223 0.079999999999950278</Position>
+<Axis>3.8051803311205832e-16 3.3435886016618828e-15 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.1079156036255364 1.9601517799757395 -0.16500000000000073</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.1079156036255364 1.9601517799757393 -0.08250000000005217</Position>
+<Axis>-1.0372890212361801e-15 -1.079902137590157e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.3726810479769425 2.3092377821056291 0.040250000000000279</Position>
+<Axis>4.5293260187627891e-16 4.6761350320186876e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.3726810479769416 2.3092377821056296 0.040249999999948112</Position>
+<Axis>-2.1099083270069816e-15 -1.4611951918757196e-15 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.6603913797072547 0.38818797068530625 -2.4795300808398901e-14</Position>
+<Axis>0.54024212143094386 -0.84150962575112209 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.5534116064326056 1.7792033820519113 -2.4850676542035871e-14</Position>
+<Axis>-0.54024212143094386 0.8415096257511222 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.3850000000000005 0.68612775888872801 0</Position>
+<Axis>-4.5293260187627891e-16 -4.6761350320186876e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.6820010645644925 0.42184835571535106 -2.4796779591930626e-14</Position>
+<Axis>6.5092351583223563e-16 3.7395497705505103e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.4548593888425687 2.3646631399535747 0.00024999999994801652</Position>
+<Axis>-0.99562048325355268 0.093487182682774672 -1.9640649263173083e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-2.9526696304693467 2.4114067312949641 0.00024999999994695075</Position>
+<Axis>0.99562048325355279 -0.093487182682774408 2.102842804395454e-15</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.5205771156866712 2.0266712267989799 -5.0418701388986159e-14</Position>
+<Axis>-0.37872302029062122 -0.92551006148066794 2.4021037644849584e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-4.5205771156866712 2.0266712267989822 -5.864685719161863e-14</Position>
+<Axis>0.37872302029062144 0.92551006148066783 -3.7204936062273357e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.6357180351481808 0.45156167239405298 -2.4755541437042779e-14</Position>
+<Axis>-0.54024212143094386 0.84150962575112209 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.9058390958636535 0.87231648526961447 -2.4773700411592795e-14</Position>
+<Axis>0.54024212143094386 -0.8415096257511222 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.4280300521772313 0.17000000000000015 0.31000000000000005</Position>
+<Axis>-4.7927608690296372e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.4280300521772369 0.08000000000000046 0.31000000000002476</Position>
+<Axis>2.4218907074161959e-16 1 2.1286069667965474e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.4280300521772313 0.17000000000000015 0.31000000000000005</Position>
+<Axis>4.7927608690296372e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>EXCAVATOR_XCGM_XE75G</Uid>
+</InstancePath>
+<Position>-1.4280300521772369 0.17000000000000035 0.31000000000002476</Position>
+<Axis>2.4218907074161959e-16 1 2.1286069667965474e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>torretta_XCGM-1</Uid>
+</InstancePath>
+<Position>-0.65000000000000069 0.77000000000000002 -1.1250010000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>boom_XCGM-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -1.1102230246251565e-16 0.19</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>torretta_XCGM-1</Uid>
+</InstancePath>
+<Position>0 0 -0.30000000000000016</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>boom_XCGM-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -1.1102230246251565e-16 0.19</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>boom_XCGM-1</Uid>
+</InstancePath>
+<Position>3.5724282162533267 1.0373796989131134 -0.10800000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>0.28131004782042224 1.5953885598797775 -0.10750000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>biella_curva_2-1</Uid>
+</InstancePath>
+<Position>0.15214257422665156 0.32627080333319403 0.020999999999999963</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>0.068388115759072665 0.2508447041954911 0.089999999999999997</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>biella_curva_2-1</Uid>
+</InstancePath>
+<Position>0.15214257422665156 0.32627080333319403 0.020999999999999963</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>0.068388115759072665 0.2508447041954911 0.089999999999999997</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>biella_curva_1-1</Uid>
+</InstancePath>
+<Position>0.15214257422664978 0.32627080333319464 -0.010000000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>4.4408920985006262e-16 -8.8817841970012523e-16 -0.090000000000000011</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident77">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_centrale-1</Uid>
+</InstancePath>
+<Position>0.15214257422664978 0.32627080333319425 -0.10000000000000005</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_curva_2-1</Uid>
+</InstancePath>
+<Position>-0.26773332407402783 0.33648011409334627 0.020999999999999963</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_centrale-1</Uid>
+</InstancePath>
+<Position>0.15214257422664978 0.32627080333319469 0.10000000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_curva_1-1</Uid>
+</InstancePath>
+<Position>-0.26773332407402872 0.33648011409334644 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>4.4408920985006262e-16 -8.8817841970012523e-16 -0.13250000000000001</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>bucket_XCGM_V01-1</Uid>
+</InstancePath>
+<Position>0.49504325887630252 0.75344210129246303 -0.13250000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>4.4408920985006262e-16 -8.8817841970012523e-16 -0.13250000000000001</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bucket_XCGM_V01-1</Uid>
+</InstancePath>
+<Position>0.49504325887630252 0.75344210129246303 -0.13250000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_centrale-1</Uid>
+</InstancePath>
+<Position>8.8817841970012523e-16 4.4408920985006262e-16 -0.10000000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>bucket_XCGM_V01-1</Uid>
+</InstancePath>
+<Position>0.73179470100352972 0.67175144212721638 0.10000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_XCGM-1</Uid>
+</InstancePath>
+<Position>0.068388115759072665 0.2508447041954911 -0.13250000000000003</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>biella_curva_1-1</Uid>
+</InstancePath>
+<Position>0.15214257422665067 0.32627080333319469 0.020999999999999998</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="arm_XCGM" uid="arm_XCGM*:*Default" version="538">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="arm_XCGM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>111.54534249274776</Mass>
+<CenterOfMass>0.27168485279675747 0.98104494939905573 0</CenterOfMass>
+<Inertia>53.769691604466296 6.8457331533869832 59.762407980711146 -2.4235268780887331e-15 0 -15.313197326890448</Inertia>
+</MassProperties>
+<GeometryFile name="arm_XCGM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="biella_centrale" uid="biella_centrale*:*Default" version="409">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="biella_centrale.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>27.534316684553847</Mass>
+<CenterOfMass>0.063913938878511628 0.13706388424199406 0</CenterOfMass>
+<Inertia>0.72637721751122841 0.28138151562527713 0.74643772675187425 0 0 -0.26516261320577927</Inertia>
+</MassProperties>
+<GeometryFile name="biella_centrale_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.51764706653707171" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="biella_curva_1" uid="biella_curva_1*:*Default" version="160">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="biella_curva_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0046784279278884</Mass>
+<CenterOfMass>-0.038035261912141918 0.35366479400788586 0.01016073010046473</CenterOfMass>
+<Inertia>0.0011894322088109503 0.020037515424646477 0.021144018056460049 -9.3375285214600875e-06 6.4824964309541494e-05 0.00082238559153776758</Inertia>
+</MassProperties>
+<GeometryFile name="biella_curva_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="biella_curva_2" uid="biella_curva_2*:*Default" version="171">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="biella_curva_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.004678233188476</Mass>
+<CenterOfMass>-0.038035256540563424 0.35366484692000327 0.010839272928512994</CenterOfMass>
+<Inertia>0.0011894199248575423 0.020037503932388644 0.021143994298189504 9.3384282515173198e-06 -6.4824876564956798e-05 0.00082232886416225553</Inertia>
+</MassProperties>
+<GeometryFile name="biella_curva_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="boom_XCGM" uid="boom_XCGM*:*Default" version="338">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="boom_XCGM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>493.21025843763391</Mass>
+<CenterOfMass>1.4721407455188029 1.0837482793926452 0</CenterOfMass>
+<Inertia>116.41484673358596 516.74625978127256 622.57935090809679 -4.1452113887803324e-14 -5.0731557795534176e-14 -119.36075283845462</Inertia>
+</MassProperties>
+<GeometryFile name="boom_XCGM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bucket_XCGM_V01" uid="bucket_XCGM_V01*:*Default" version="344">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bucket_XCGM_V01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>40.169399895757948</Mass>
+<CenterOfMass>0.56078970479144263 0.3278967818738171 0</CenterOfMass>
+<Inertia>4.7564933962529681 4.0548942991843857 3.8551026868038392 2.9293772738183992e-15 0 -0.94268124483250182</Inertia>
+</MassProperties>
+<GeometryFile name="bucket_XCGM_V01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="torretta_XCGM" uid="torretta_XCGM*:*Default" version="2828">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="torretta_XCGM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8275.7488581342259</Mass>
+<CenterOfMass>0.17577419393919985 0.45089808833351702 -0.09219861491859481</CenterOfMass>
+<Inertia>5054.445584198982 8020.0169841115003 5783.6305147127623 -282.42672045705615 -330.27978068959879 330.89203642455919</Inertia>
+</MassProperties>
+<GeometryFile name="torretta_XCGM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.51764706653707171" g="0.49568628189610503" b="0.47058824230642882" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

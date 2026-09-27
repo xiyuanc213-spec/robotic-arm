@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="08/05/26||16:05:28" using="Simscape Multibody Link Version 7.4" from="SolidWorks 34.3.2"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem" uid="Assem" version="835">
+<AssemblyFile name="Assem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="torretta_XCGM_0.1-1" uid="torretta_XCGM_0.1-1" entityUid="torretta_XCGM_0.1*:*Default">
+<Transform>
+<Rotation>0.99888621394763366 1.5667938279886148e-16 -0.047184018325721298 -1.7627144356354182e-16 1 -4.1106571202808465e-16 0.047184018325721298 4.1892506779482526e-16 0.99888621394763366</Rotation>
+<Translation>1.604038336259876 -0.51319690607609714 -4.0926145041673223</Translation>
+</Transform>
+</Instance>
+<Instance name="biella_centrale_0.1-1" uid="biella_centrale_0.1-1" entityUid="biella_centrale_0.1*:*Default">
+<Transform>
+<Rotation>0.91255056535979395 -0.40623285696279943 -0.0471840183257227 0.4066858179545324 0.91356808475047602 -3.4325840775781776e-16 0.043105813252661995 -0.019189071087177868 0.99888621394763377</Rotation>
+<Translation>0.99876462276535982 -0.014065620966869162 -4.0602930421981123</Translation>
+</Transform>
+</Instance>
+<Instance name="boom_XCGM_0.1-1" uid="boom_XCGM_0.1-1" entityUid="boom_XCGM_0.1*:*Default">
+<Transform>
+<Rotation>-0.97214057558469646 0.22960045669922524 0.04718401832572184 0.22985646762691433 0.97322453950261512 1.7206288477344955e-16 -0.045920644506933568 0.010845551780794183 -0.99888621394763355</Rotation>
+<Translation>2.5487811337131601 -1.2370889204858879 -3.9871255417989659</Translation>
+</Transform>
+</Instance>
+<Instance name="biella_curva_2_0.1-1" uid="biella_curva_2_0.1-1" entityUid="biella_curva_2_0.1*:*Default">
+<Transform>
+<Rotation>0.97372554198798267 0.22278293762056245 -0.047184018325722006 -0.22303134682389542 0.97481127318774852 -4.5016074200022947e-16 0.045995512978211028 0.010523515155749577 0.99888621394763388</Rotation>
+<Translation>0.98890487231167157 -0.18985551935085329 -4.0875612989835757</Translation>
+</Transform>
+</Instance>
+<Instance name="bucket_XCGM_V01_0.1-1" uid="bucket_XCGM_V01_0.1-1" entityUid="bucket_XCGM_V01_0.1*:*Default">
+<Transform>
+<Rotation>-0.99470498844648103 0.091299804897512216 0.047184018325723012 0.091401606732254573 0.99581411231552774 1.3524337899583173e-15 -0.046986511324509345 0.0043126950870565738 -0.99888621394763355</Rotation>
+<Translation>1.5288967725361564 -0.2825160628707028 -4.0345005498099953</Translation>
+</Transform>
+</Instance>
+<Instance name="biella_curva_1_0.1-1" uid="biella_curva_1_0.1-1" entityUid="biella_curva_1_0.1*:*Default">
+<Transform>
+<Rotation>0.97372554198798233 0.22278293762056364 -0.047184018325723241 -0.22303134682389658 0.97481127318774841 -1.533739498251297e-16 0.045995512978212291 0.01052351515574962 0.99888621394763377</Rotation>
+<Translation>0.98779391936137417 -0.18985548784275158 -4.064042200653887</Translation>
+</Transform>
+</Instance>
+<Instance name="MA16x50SCA(0)+()-1" uid="MA16x50SCA(0)+()-1" entityUid="MA16x50SCA(0)+()">
+<Transform>
+<Rotation>0.25055681405607133 0.96695136968966 -0.047184018325721583 -0.96802954749794168 0.25083619190804718 -1.0039712117215771e-15 0.011835459475742537 0.045675523908983079 0.99888621394763377</Rotation>
+<Translation>1.3961056131915415 0.13109514680265133 -4.0423274115103318</Translation>
+</Transform>
+<Instance name="16 MA Nut-1" uid="16 MA Nut-1" entityUid="16 MA Nut*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 -5.2056781465765339e-15 -5.2562121322097255e-16 5.108001695230957e-15 0.99899134137138956 0.044903227779212761 2.8796409701214998e-16 -0.044903227779212782 0.99899134137138945</Rotation>
+<Translation>-0.022500000003456228 -1.4272805159976087e-11 2.5313084961453569e-13</Translation>
+</Transform>
+</Instance>
+<Instance name="16MA50 Rod-1" uid="16MA50 Rod-1" entityUid="16MA50 Rod*:*Default">
+<Transform>
+<Rotation>1 5.1298453971179767e-15 -2.5485659036320993e-15 5.7203590822507684e-15 -0.87132336393781695 0.49070927793968466 2.9663771439203396e-16 -0.49070927793968466 -0.87132336393781695</Rotation>
+<Translation>-0.0704496528110366 -9.7921670771938807e-14 6.2172489379008766e-15</Translation>
+</Transform>
+</Instance>
+<Instance name="16MA 50 Body-1" uid="16MA 50 Body-1" grounded="true" entityUid="16MA 50 Body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028500000000000025 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="16 MA Nut1-1" uid="16 MA Nut1-1" entityUid="16 MA Nut1*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 4.4615342914252135e-15 -5.3256010712487978e-16 -4.4145459857092284e-15 -0.99899134136989842 0.044903227812388966 -3.2786273695961654e-16 0.044903227812388979 0.99899134136989831</Rotation>
+<Translation>-0.06244965281105605 -1.1013412404281553e-13 7.1054273576010019e-15</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="arm_XCGM_0.1-1" uid="arm_XCGM_0.1-1" entityUid="arm_XCGM_0.1*:*Default">
+<Transform>
+<Rotation>-0.556965704639105 0.82919411012772104 0.047184018325721985 0.83011868474059369 0.55758673696972638 4.501607419867999e-16 -0.026309182815358715 0.039168335233324657 -0.99888621394763355</Rotation>
+<Translation>0.38359568351594497 -0.62247456797503753 -4.0893515496613864</Translation>
+</Transform>
+</Instance>
+<Instance name="MA16x25SCA(0)+()-1" uid="MA16x25SCA(0)+()-1" entityUid="MA16x25SCA(0)+()">
+<Transform>
+<Rotation>0.69959277365452899 -0.71298220136620594 -0.047184018325721194 0.71377719645211135 0.7003728391542352 -3.5749566893419447e-16 0.033046404877491081 -0.033678876317878075 0.99888621394763399</Rotation>
+<Translation>1.0625091394596315 0.22956679407886388 -4.0575823005680132</Translation>
+</Transform>
+<Instance name="16MA 25 Body-1" uid="16MA 25 Body-1" grounded="true" entityUid="16MA 25 Body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028500000000000081 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="16 MA Nut-1" uid="16 MA Nut-1" grounded="true" entityUid="16 MA Nut*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.022500000000000187 0 -8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="16 MA Nut1-1" uid="16 MA Nut1-1" entityUid="16 MA Nut1*:*Default">
+<Transform>
+<Rotation>1 -1.6482783558642813e-15 -1.20286210902658e-15 0 0.60686255905407971 -0.79480679062167903 2.0400348077487251e-15 0.79480679062167903 0.60686255905407971</Rotation>
+<Translation>-0.062299625106983392 -5.1427861968988964e-11 5.4472870658628381e-11</Translation>
+</Transform>
+</Instance>
+<Instance name="16MA25 Rod-1" uid="16MA25 Rod-1" entityUid="16MA25 Rod*:*Default">
+<Transform>
+<Rotation>0.99999999999999989 0 -1.8173310598407098e-15 2.19225679276569e-16 0.99175616519653409 0.1281394115589152 1.8041124150158794e-15 -0.12813941155891523 0.99175616519653398</Rotation>
+<Translation>-0.070299625103772634 -7.9169115707600213e-11 6.2252425436781778e-12</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="接头-1" uid="接头-1" entityUid="接头*:*默认">
+<Transform>
+<Rotation>0.96695136968966011 -0.25055681405607066 -0.047184018325721791 0.25083619190804651 0.96802954749794168 -5.1987494170679938e-16 0.045675523908983204 -0.011835459475743035 0.99888621394763399</Rotation>
+<Translation>1.379894674311571 0.19372632244085483 -4.043093161629324</Translation>
+</Transform>
+</Instance>
+<Instance name="MA16x25SCA(0)+()-2" uid="MA16x25SCA(0)+()-2" entityUid="MA16x25SCA(0)+()">
+<Transform>
+<Rotation>0.98421364961907887 -0.17057889763429476 0.04718401832572082 -0.17076909787368169 -0.98531107535204798 7.9636608817219969e-16 0.046490935835946573 -0.0080575722435393873 -0.99888621394763377</Rotation>
+<Translation>1.2362877034476416 0.28702167829438263 -4.0485726948468486</Translation>
+</Transform>
+<Instance name="16MA 25 Body-1" uid="16MA 25 Body-1" grounded="true" entityUid="16MA 25 Body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.028500000000000192 0 -8.8817841970012523e-16</Translation>
+</Transform>
+</Instance>
+<Instance name="16 MA Nut1-1" uid="16 MA Nut1-1" entityUid="16 MA Nut1*:*Default">
+<Transform>
+<Rotation>1 8.633622790394859e-16 -7.3866818499670686e-16 2.4172287435564316e-16 -0.79687128341981373 -0.60414911872886046 -1.1102230246251563e-15 0.60414911872886046 -0.79687128341981373</Rotation>
+<Translation>-0.054890428422123327 -1.2581105324205311e-08 6.9597838603385753e-09</Translation>
+</Transform>
+</Instance>
+<Instance name="16MA25 Rod-1" uid="16MA25 Rod-1" entityUid="16MA25 Rod*:*Default">
+<Transform>
+<Rotation>1 -4.9297360811673031e-16 9.9760027564177387e-16 -5.8964335150624149e-16 0.52554593220913215 0.85076522797916132 -9.4368957093138286e-16 -0.85076522797916132 0.52554593220913215</Rotation>
+<Translation>-0.062890427180098518 -3.0308588971905692e-11 -2.7808866320810921e-12</Translation>
+</Transform>
+</Instance>
+<Instance name="16 MA Nut-1" uid="16 MA Nut-1" grounded="true" entityUid="16 MA Nut*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.022500000000000075 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="接头-5" uid="接头-5" entityUid="接头*:*默认">
+<Transform>
+<Rotation>0.17057889763429498 -0.98421364961907865 -0.047184018325721978 0.98531107535204776 0.17076909787368186 -3.4000580129231247e-16 0.0080575722435391531 -0.046490935835947801 0.99888621394763366</Rotation>
+<Translation>1.1800493150749165 0.29677949749552551 -4.0512292067803752</Translation>
+</Transform>
+</Instance>
+<Instance name="接头-3" uid="接头-3" entityUid="接头*:*默认">
+<Transform>
+<Rotation>-0.71298220136620594 -0.69959277365452877 -0.047184018325722825 0.70037283915423509 -0.71377719645211135 -1.2366409978864793e-15 -0.03367887631787863 -0.033046404877492837 0.99888621394763388</Rotation>
+<Translation>1.0173506882026164 0.18349274364810747 -4.0597154336135191</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>torretta_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>-0.13561432896185543 0.58019690606959828 0.040794708765261589</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.3550033936227619 1.0199420447272143 0.01899999999999924</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>torretta_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>-0.070614328961855044 0.50319690606959833 0.041794708765261923</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.3550033936227619 1.0199420447272143 0.01899999999999924</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.7122462152480948 1.1236800146185257 -0.010800000000000587</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.30084230419596747 1.116982560454411 0.010749999999999815</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.2795501109898324 0.98252817488598221 -0.0090000000000003411</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_curva_1_0.1-1</Uid>
+</InstancePath>
+<Position>-0.023819382735621009 0.35080934097822325 0.016227340824918279</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>biella_centrale_0.1-1</Uid>
+</InstancePath>
+<Position>0.07686713851998106 0.1648421105158675 0.0099999999999997868</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>biella_curva_1_0.1-1</Uid>
+</InstancePath>
+<Position>-0.065806972565688793 0.35183027205423845 0.016227340824918279</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>biella_centrale_0.1-1</Uid>
+</InstancePath>
+<Position>0.061652881097316037 0.13221503018254804 0.0099999999999997868</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>biella_curva_1_0.1-1</Uid>
+</InstancePath>
+<Position>-0.039033640158286032 0.31818226064490385 0.013227340824918166</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.27271129941392508 0.95744370446643301 -0.0090000000000003411</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>biella_curva_1_0.1-1</Uid>
+</InstancePath>
+<Position>-0.023819382735621009 0.35080934097822325 0.01222734082491872</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.2795501109898324 0.98252817488598221 0.0089999999999994529</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>biella_curva_2_0.1-1</Uid>
+</InstancePath>
+<Position>-0.023819380034107107 0.35080937391857242 0.016772663135290244</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.27271129941392513 0.95744370446643312 0.0089999999999994529</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>biella_curva_2_0.1-1</Uid>
+</InstancePath>
+<Position>-0.023819380034106996 0.35080937391857242 0.01777266313528969</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>biella_centrale_0.1-1</Uid>
+</InstancePath>
+<Position>0.07686713851998106 0.1648421105158675 -0.0034999999999998366</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>biella_curva_2_0.1-1</Uid>
+</InstancePath>
+<Position>-0.065806969864174891 0.35183030499458767 0.016772663135291133</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.27271129941392513 0.95744370446643312 -0.013250000000001094</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>bucket_XCGM_V01_0.1-1</Uid>
+</InstancePath>
+<Position>0.54018712517620238 0.37246728613340863 -0.015499999999999403</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.27271129941392513 0.95744370446643312 -0.013250000000001094</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bucket_XCGM_V01_0.1-1</Uid>
+</InstancePath>
+<Position>0.54018712517620227 0.37246728613340874 -0.012499999999999289</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>biella_centrale_0.1-1</Uid>
+</InstancePath>
+<Position>0.061652881097316037 0.13221503018254804 0.0099999999999997868</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>bucket_XCGM_V01_0.1-1</Uid>
+</InstancePath>
+<Position>0.56386226938892459 0.36429822021688407 -0.015499999999999403</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>torretta_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>-0.17861432896185514 0.54119690606959825 0.072494708765262317</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x50SCA(0)+()-1</Uid>
+<Uid>16MA 50 Body-1</Uid>
+</InstancePath>
+<Position>0.13500000000000009 -2.2204460492503131e-16 -0.0060000000000002274</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.34479121674165858 1.1191022505381678 0.0083000000000001961</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-1</Uid>
+<Uid>16MA 25 Body-1</Uid>
+</InstancePath>
+<Position>0.11000000000000021 0 -0.0060000000000011156</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.4780399735492211 1.1429786246536739 0.013999999999999346</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-1</Uid>
+</InstancePath>
+<Position>-2.2204460492503131e-16 0.022000000000000047 -0.0030000000000010019</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x50SCA(0)+()-1</Uid>
+<Uid>16MA50 Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-1</Uid>
+</InstancePath>
+<Position>0 0.0037500000000000588 -8.8817841970012523e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>biella_centrale_0.1-1</Uid>
+</InstancePath>
+<Position>0.07686713851998106 0.16484211051586756 0.0034999999999998366</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-3</Uid>
+</InstancePath>
+<Position>0 0.02200000000000002 -0.0029999999999992255</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-1</Uid>
+<Uid>16MA25 Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-3</Uid>
+</InstancePath>
+<Position>0 0.0037500000000000311 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.34479121674165858 1.1191022505381678 0.0062999999999995282</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-1</Uid>
+<Uid>16MA 25 Body-1</Uid>
+</InstancePath>
+<Position>0.10100000000000009 -0.0080000000000001181 -0.0060000000000002274</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-2</Uid>
+<Uid>16MA25 Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 1.0408340855860843e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-5</Uid>
+</InstancePath>
+<Position>0 0.003749999999999809 8.8817841970012523e-16</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.3336950601088341 1.158572179699237 -0.0088000000000008072</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-5</Uid>
+</InstancePath>
+<Position>0 0.021999999999999575 0.0030000000000001137</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-2</Uid>
+<Uid>16 MA Nut1-1</Uid>
+</InstancePath>
+<Position>-0.0024999999999999467 4.4408920985006262e-16 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-5</Uid>
+</InstancePath>
+<Position>0 0.0002499999999996394 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-2</Uid>
+<Uid>16 MA Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-5</Uid>
+</InstancePath>
+<Position>0 0.0002499999999996394 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-2</Uid>
+<Uid>16 MA Nut1-1</Uid>
+</InstancePath>
+<Position>-0.0024999999999999467 4.4408920985006262e-16 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem</Uid>
+</InstancePath>
+<Position>0.90758714373880922 -0.1574737739532954 0.04287135794288336</Position>
+<Axis>-0.98421364961836866 0.17076909787778374 -0.046490935835913155</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-2</Uid>
+<Uid>16 MA Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem</Uid>
+</InstancePath>
+<Position>0.94192677840978489 -0.16343198072431381 0.044493446555795131</Position>
+<Axis>-0.98421364961861257 0.17076909787612499 -0.046490935836843411</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-5</Uid>
+</InstancePath>
+<Position>0 0.0002499999999996394 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem</Uid>
+</InstancePath>
+<Position>0.90758714373880922 -0.1574737739532954 0.04287135794288336</Position>
+<Axis>-0.98421364961836866 0.17076909787778374 -0.046490935835913155</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-1</Uid>
+</InstancePath>
+<Position>0 0.00025000000000005573 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem</Uid>
+</InstancePath>
+<Position>0.027588145268326005 -0.1065871622011786 0.0013031710056031545</Position>
+<Axis>-0.250556814056072 0.96802954749794146 -0.011835459475742658</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-1</Uid>
+<Uid>16MA 25 Body-1</Uid>
+</InstancePath>
+<Position>0.0009200000000000319 0 -8.8817841970012523e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-3</Uid>
+</InstancePath>
+<Position>0 0.00024999999999997247 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-1</Uid>
+<Uid>16 MA Nut1-1</Uid>
+</InstancePath>
+<Position>0.0024999999999999467 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-3</Uid>
+</InstancePath>
+<Position>0 0.00024999999999997247 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>接头-3</Uid>
+</InstancePath>
+<Position>0 0.00024999999999997247 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem</Uid>
+</InstancePath>
+<Position>0.49551815173834535 0.5055649092704696 0.023406607505323664</Position>
+<Axis>-0.69959277365452888 -0.71377719645211146 -0.033046404877492851</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="距离1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem</Uid>
+</InstancePath>
+<Position>0.49551815173834535 0.5055649092704696 0.023406607505323664</Position>
+<Axis>-0.69959277365452888 -0.71377719645211146 -0.033046404877492851</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-1</Uid>
+<Uid>16MA25 Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="同心5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.5477247142447894 1.1861994172677781 -0.014000000000000234</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>MA16x25SCA(0)+()-2</Uid>
+<Uid>16MA 25 Body-1</Uid>
+</InstancePath>
+<Position>0.1100000000000001 0 -0.0060000000000002274</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.32754139524007286 1.1388305425789138 0.0062999999999995282</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>接头-5</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.012499999999999512 -0.0030000000000001137</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="重合11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.7122462152480948 1.1236800146185257 -0.010800000000000587</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>0.27271129941392513 0.95744370446643312 -0.010750000000000703</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="LimitDistance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>boom_XCGM_0.1-1</Uid>
+</InstancePath>
+<Position>1.3550033936227619 1.0199420447272141 -0.0070000000000005613</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>接头-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.012499999999999983 0.0029999999999992255</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="MA16x50SCA(0)+()" uid="MA16x50SCA(0)+()" version="165">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MA16x50SCA(0)+().SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16MA 50 Body-1</Uid>
+</InstancePath>
+<Position>0.106 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16MA50 Rod-1</Uid>
+</InstancePath>
+<Position>0.108 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16MA 50 Body-1</Uid>
+</InstancePath>
+<Position>0.106 0.0080000000000000002 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16MA50 Rod-1</Uid>
+</InstancePath>
+<Position>0.128 0.0077500000000000017 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="距离3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16 MA Nut1-1</Uid>
+</InstancePath>
+<Position>0.0025000000000000022 0.0050000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16MA50 Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="同心6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16MA50 Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16 MA Nut1-1</Uid>
+</InstancePath>
+<Position>0.0025000000000000022 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="距离4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16 MA Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16MA 50 Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="同心7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16MA 50 Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16 MA Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="MA16x25SCA(0)+()" uid="MA16x25SCA(0)+()" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MA16x25SCA(0)+().SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16MA 25 Body-1</Uid>
+</InstancePath>
+<Position>0.036000000000000004 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>16MA25 Rod-1</Uid>
+</InstancePath>
+<Position>0.10300000000000001 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16MA 25 Body-1</Uid>
+</InstancePath>
+<Position>0.081000000000000003 0.0080000000000000002 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>16MA25 Rod-1</Uid>
+</InstancePath>
+<Position>0.10300000000000001 0.0077500000000000034 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="16 MA Nut" uid="16 MA Nut*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16 MA Nut.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014667367026555812</Mass>
+<CenterOfMass>0.0029659106831251385 6.8317474606468787e-12 -2.150552421232313e-11</CenterOfMass>
+<Inertia>1.3644667417824206e-07 7.2294565535834945e-08 7.2294929952506966e-08 3.0411324694615945e-13 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="16 MA Nut_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Specular r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16 MA Nut1" uid="16 MA Nut1*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16 MA Nut1.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0003310250320718669</Mass>
+<CenterOfMass>0 -7.692833034603589e-10 0</CenterOfMass>
+<Inertia>5.6300841417326095e-09 3.4806559780823465e-09 3.4805011519927907e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="16 MA Nut1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Specular r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16MA 25 Body" uid="16MA 25 Body*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16MA 25 Body.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14233257575916419</Mass>
+<CenterOfMass>0.058696536796053057 -0.00010351214699968225 -1.9387002427173321e-08</CenterOfMass>
+<Inertia>6.8434799384937445e-06 0.00021042204365635131 0.0002105299046573932 1.9906985573624132e-11 1.0842228127170224e-11 -2.904291339746419e-09</Inertia>
+</MassProperties>
+<GeometryFile name="16MA 25 Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16MA 50 Body" uid="16MA 50 Body*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16MA 50 Body.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14954729942755254</Mass>
+<CenterOfMass>0.071381048577847675 -9.8518341195192712e-05 -1.7880225835329649e-08</CenterOfMass>
+<Inertia>7.3474660664284181e-06 0.00036184896573265607 0.00036195689758066466 1.922126267645415e-11 1.3275029907787319e-11 -5.6306464209146098e-09</Inertia>
+</MassProperties>
+<GeometryFile name="16MA 50 Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16MA25 Rod" uid="16MA25 Rod*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16MA25 Rod.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.047977755705823348</Mass>
+<CenterOfMass>0.073398562770834591 0 2.7109212682003259e-14</CenterOfMass>
+<Inertia>9.7262387578083786e-07 4.1801266460895627e-05 4.1801892047781266e-05 1.0137912131509364e-13 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="16MA25 Rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16MA50 Rod" uid="16MA50 Rod*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16MA50 Rod.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.05353224861962419</Mass>
+<CenterOfMass>0.089540849445664372 0 3.3582414516540733e-14</CenterOfMass>
+<Inertia>9.9761909389294393e-07 7.8465311215852963e-05 7.8465936802738602e-05 1.1537149953365307e-13 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="16MA50 Rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="arm_XCGM_0.1" uid="arm_XCGM_0.1*:*Default" version="1038">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="arm_XCGM_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.070372690979248378</Mass>
+<CenterOfMass>0.30210354413239571 1.0629118558770516 -8.1036230207702021e-10</CenterOfMass>
+<Inertia>0.00022071117632643328 2.9324169634741162e-05 0.00024429127304601624 -2.6924201667690911e-13 2.3383376424527927e-13 -6.3539825266685775e-05</Inertia>
+</MassProperties>
+<GeometryFile name="arm_XCGM_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="biella_centrale_0.1" uid="biella_centrale_0.1*:*Default" version="465">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="biella_centrale_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0062203106328734869</Mass>
+<CenterOfMass>0.068503201219240029 0.14690558909172008 0</CenterOfMass>
+<Inertia>1.3540160912454925e-06 5.5010372477575522e-07 1.3495472355738452e-06 0 0 -4.7903272543560735e-07</Inertia>
+</MassProperties>
+<GeometryFile name="biella_centrale_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="biella_curva_1_0.1" uid="biella_curva_1_0.1*:*Default" version="206">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="biella_curva_1_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018001750802682712</Mass>
+<CenterOfMass>-0.043370794651701669 0.35353595963126161 0.014697044977425213</CenterOfMass>
+<Inertia>2.1833678537492726e-08 3.67904652935098e-07 3.8685958067287442e-07 -1.4867923960233253e-10 1.0662877685665066e-09 1.2706634637007662e-08</Inertia>
+</MassProperties>
+<GeometryFile name="biella_curva_1_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="biella_curva_2_0.1" uid="biella_curva_2_0.1*:*Default" version="192">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="biella_curva_2_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0018001748387914064</Mass>
+<CenterOfMass>-0.043370791650032159 0.35353599623165022 0.015302959422805048</CenterOfMass>
+<Inertia>2.1833526279357809e-08 3.6790451097096171e-07 3.8685928688421946e-07 1.4870243441353619e-10 -1.0662859179222429e-09 1.2705927693074703e-08</Inertia>
+</MassProperties>
+<GeometryFile name="biella_curva_2_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="boom_XCGM_0.1" uid="boom_XCGM_0.1*:*Default" version="696">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="boom_XCGM_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2450192536581649</Mass>
+<CenterOfMass>1.5106277680289293 1.1332906386679704 -2.7961165379997594e-09</CenterOfMass>
+<Inertia>0.0004343462594481676 0.0024290384981485867 0.0028132716727539441 -2.0901432787507708e-11 -2.8512560398346849e-11 -0.00041207684635737138</Inertia>
+</MassProperties>
+<GeometryFile name="boom_XCGM_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bucket_XCGM_V01_0.1" uid="bucket_XCGM_V01_0.1*:*Default" version="388">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bucket_XCGM_V01_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.063227259568102809</Mass>
+<CenterOfMass>0.5452031103206354 0.33013675111573587 0</CenterOfMass>
+<Inertia>7.9909296792965364e-05 6.8493255307571901e-05 5.7074904724855189e-05 0 0 -1.371057404834907e-05</Inertia>
+</MassProperties>
+<GeometryFile name="bucket_XCGM_V01_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="torretta_XCGM_0.1" uid="torretta_XCGM_0.1*:*Default" version="3429">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="torretta_XCGM_0.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18179747889503473</Mass>
+<CenterOfMass>-0.15139431773965939 0.52590912575410287 0.060794709210246468</CenterOfMass>
+<Inertia>0.00014032752978925857 0.00024752552558713372 0.00018062458366736609 -4.4530268741295886e-12 -7.863635239641642e-13 -1.395586488730176e-05</Inertia>
+</MassProperties>
+<GeometryFile name="torretta_XCGM_0.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="接头" uid="接头*:*默认" version="202">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="接头.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016608452909123285</Mass>
+<CenterOfMass>2.5900755377665782e-09 0.011937520387138176 2.4316590941507518e-08</CenterOfMass>
+<Inertia>9.461455336997168e-08 3.3837837581820869e-08 1.0198888543966481e-07 -5.362903562411552e-13 1.1712205457092255e-13 -2.9196694434695295e-14</Inertia>
+</MassProperties>
+<GeometryFile name="接头_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
